@@ -1,0 +1,177 @@
+(yolov8) [opc@gpu-training-001 captcha_dataset]$ cd crnn_lstm/
+(yolov8) [opc@gpu-training-001 crnn_lstm]$ python /mnt/data/sanjay/captcha_dataset/crnn_lstm/train2.py
+[INFO] Train samples: 6000
+[INFO] Val samples:   2000
+[Epoch 1] Training Loss: 2.7235                                                                                                                 
+[Epoch 1] Metrics | Loss: 2.7235 | Per-digit acc: 0.0000 | Seq acc: 0.0000                                                                      
+2025-04-24 20:08:45,283 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch1_acc0.0000_loss2.7235.pth
+[Epoch 2] Training Loss: 2.5851                                                                                                                 
+[Epoch 2] Metrics | Loss: 2.5851 | Per-digit acc: 0.0000 | Seq acc: 0.0000                                                                      
+2025-04-24 20:08:46,885 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch2_acc0.0000_loss2.5851.pth
+[Epoch 3] Training Loss: 2.5852                                                                                                                 
+[Epoch 3] Metrics | Loss: 2.5852 | Per-digit acc: 0.0000 | Seq acc: 0.0000                                                                      
+2025-04-24 20:08:48,468 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch3_acc0.0000_loss2.5852.pth
+[Epoch 4] Training Loss: 2.5847                                                                                                                 
+[Epoch 4] Metrics | Loss: 2.5847 | Per-digit acc: 0.0000 | Seq acc: 0.0000                                                                      
+2025-04-24 20:08:50,030 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch4_acc0.0000_loss2.5847.pth
+[Epoch 5] Training Loss: 2.5813                                                                                                                 
+[Epoch 5] Metrics | Loss: 2.5813 | Per-digit acc: 0.0000 | Seq acc: 0.0000                                                                      
+2025-04-24 20:08:51,578 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch5_acc0.0000_loss2.5813.pth
+[Epoch 6] Training Loss: 2.5685                                                                                                                 
+[Epoch 6] Metrics | Loss: 2.5685 | Per-digit acc: 0.0350 | Seq acc: 0.0000                                                                      
+2025-04-24 20:08:53,119 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch6_acc0.0350_loss2.5685.pth
+2025-04-24 20:08:53,129 - INFO - New best acc: 0.0350 — best_model.pth saved
+[Epoch 7] Training Loss: 2.5596                                                                                                                 
+[Epoch 7] Metrics | Loss: 2.5596 | Per-digit acc: 0.0370 | Seq acc: 0.0000                                                                      
+2025-04-24 20:08:54,720 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch7_acc0.0370_loss2.5596.pth
+2025-04-24 20:08:54,732 - INFO - New best acc: 0.0370 — best_model.pth saved
+[Epoch 8] Training Loss: 2.4834                                                                                                                 
+[Epoch 8] Metrics | Loss: 2.4834 | Per-digit acc: 0.0516 | Seq acc: 0.0000                                                                      
+2025-04-24 20:08:56,324 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch8_acc0.0516_loss2.4834.pth
+2025-04-24 20:08:56,337 - INFO - New best acc: 0.0516 — best_model.pth saved
+[Epoch 9] Training Loss: 2.0990                                                                                                                 
+[Epoch 9] Metrics | Loss: 2.0990 | Per-digit acc: 0.1737 | Seq acc: 0.0005                                                                      
+2025-04-24 20:08:57,917 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch9_acc0.1737_loss2.0990.pth
+2025-04-24 20:08:57,929 - INFO - New best acc: 0.1737 — best_model.pth saved
+[Epoch 10] Training Loss: 1.4180                                                                                                                
+[Epoch 10] Metrics | Loss: 1.4180 | Per-digit acc: 0.5860 | Seq acc: 0.0935                                                                     
+2025-04-24 20:08:59,525 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch10_acc0.5860_loss1.4180.pth
+2025-04-24 20:08:59,537 - INFO - New best acc: 0.5860 — best_model.pth saved
+[Epoch 11] Training Loss: 0.7069                                                                                                                
+[Epoch 11] Metrics | Loss: 0.7069 | Per-digit acc: 0.7997 | Seq acc: 0.3685                                                                     
+2025-04-24 20:09:01,140 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch11_acc0.7997_loss0.7069.pth
+2025-04-24 20:09:01,152 - INFO - New best acc: 0.7997 — best_model.pth saved
+[Epoch 12] Training Loss: 0.3612                                                                                                                
+[Epoch 12] Metrics | Loss: 0.3612 | Per-digit acc: 0.9101 | Seq acc: 0.6935                                                                     
+2025-04-24 20:09:02,709 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch12_acc0.9101_loss0.3612.pth
+2025-04-24 20:09:02,722 - INFO - New best acc: 0.9101 — best_model.pth saved
+[Epoch 13] Training Loss: 0.1917                                                                                                                
+[Epoch 13] Metrics | Loss: 0.1917 | Per-digit acc: 0.9457 | Seq acc: 0.8060                                                                     
+2025-04-24 20:09:04,268 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch13_acc0.9457_loss0.1917.pth
+2025-04-24 20:09:04,280 - INFO - New best acc: 0.9457 — best_model.pth saved
+[Epoch 14] Training Loss: 0.1180                                                                                                                
+[Epoch 14] Metrics | Loss: 0.1180 | Per-digit acc: 0.9635 | Seq acc: 0.8610                                                                     
+2025-04-24 20:09:05,841 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch14_acc0.9635_loss0.1180.pth
+2025-04-24 20:09:05,854 - INFO - New best acc: 0.9635 — best_model.pth saved
+[Epoch 15] Training Loss: 0.0828                                                                                                                
+[Epoch 15] Metrics | Loss: 0.0828 | Per-digit acc: 0.9664 | Seq acc: 0.8810                                                                     
+2025-04-24 20:09:07,441 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch15_acc0.9664_loss0.0828.pth
+2025-04-24 20:09:07,454 - INFO - New best acc: 0.9664 — best_model.pth saved
+[Epoch 16] Training Loss: 0.0600                                                                                                                
+[Epoch 16] Metrics | Loss: 0.0600 | Per-digit acc: 0.9743 | Seq acc: 0.9020                                                                     
+2025-04-24 20:09:09,072 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch16_acc0.9743_loss0.0600.pth
+2025-04-24 20:09:09,084 - INFO - New best acc: 0.9743 — best_model.pth saved
+[Epoch 17] Training Loss: 0.0505                                                                                                                
+[Epoch 17] Metrics | Loss: 0.0505 | Per-digit acc: 0.9770 | Seq acc: 0.9045                                                                     
+2025-04-24 20:09:10,649 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch17_acc0.9770_loss0.0505.pth
+2025-04-24 20:09:10,663 - INFO - New best acc: 0.9770 — best_model.pth saved
+[Epoch 18] Training Loss: 0.0374                                                                                                                
+[Epoch 18] Metrics | Loss: 0.0374 | Per-digit acc: 0.9783 | Seq acc: 0.9170                                                                     
+2025-04-24 20:09:12,234 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch18_acc0.9783_loss0.0374.pth
+2025-04-24 20:09:12,248 - INFO - New best acc: 0.9783 — best_model.pth saved
+[Epoch 19] Training Loss: 0.0290                                                                                                                
+[Epoch 19] Metrics | Loss: 0.0290 | Per-digit acc: 0.9825 | Seq acc: 0.9270                                                                     
+2025-04-24 20:09:13,817 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch19_acc0.9825_loss0.0290.pth
+2025-04-24 20:09:13,830 - INFO - New best acc: 0.9825 — best_model.pth saved
+[Epoch 20] Training Loss: 0.0236                                                                                                                
+[Epoch 20] Metrics | Loss: 0.0236 | Per-digit acc: 0.9834 | Seq acc: 0.9350                                                                     
+2025-04-24 20:09:15,446 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch20_acc0.9834_loss0.0236.pth
+2025-04-24 20:09:15,459 - INFO - New best acc: 0.9834 — best_model.pth saved
+[Epoch 21] Training Loss: 0.0202                                                                                                                
+[Epoch 21] Metrics | Loss: 0.0202 | Per-digit acc: 0.9801 | Seq acc: 0.9255                                                                     
+2025-04-24 20:09:17,069 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch21_acc0.9801_loss0.0202.pth
+[Epoch 22] Training Loss: 0.0195                                                                                                                
+[Epoch 22] Metrics | Loss: 0.0195 | Per-digit acc: 0.9831 | Seq acc: 0.9340                                                                     
+2025-04-24 20:09:18,635 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch22_acc0.9831_loss0.0195.pth
+[Epoch 23] Training Loss: 0.0160                                                                                                                
+[Epoch 23] Metrics | Loss: 0.0160 | Per-digit acc: 0.9882 | Seq acc: 0.9505                                                                     
+2025-04-24 20:09:20,214 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch23_acc0.9882_loss0.0160.pth
+2025-04-24 20:09:20,227 - INFO - New best acc: 0.9882 — best_model.pth saved
+[Epoch 24] Training Loss: 0.0105                                                                                                                
+[Epoch 24] Metrics | Loss: 0.0105 | Per-digit acc: 0.9845 | Seq acc: 0.9290                                                                     
+2025-04-24 20:09:21,776 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch24_acc0.9845_loss0.0105.pth
+[Epoch 25] Training Loss: 0.0170                                                                                                                
+[Epoch 25] Metrics | Loss: 0.0170 | Per-digit acc: 0.9852 | Seq acc: 0.9420                                                                     
+2025-04-24 20:09:23,356 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch25_acc0.9852_loss0.0170.pth
+[Epoch 26] Training Loss: 0.0112                                                                                                                
+[Epoch 26] Metrics | Loss: 0.0112 | Per-digit acc: 0.9878 | Seq acc: 0.9440                                                                     
+2025-04-24 20:09:24,906 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch26_acc0.9878_loss0.0112.pth
+[Epoch 27] Training Loss: 0.0117                                                                                                                
+[Epoch 27] Metrics | Loss: 0.0117 | Per-digit acc: 0.9883 | Seq acc: 0.9495                                                                     
+2025-04-24 20:09:26,505 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch27_acc0.9883_loss0.0117.pth
+2025-04-24 20:09:26,517 - INFO - New best acc: 0.9883 — best_model.pth saved
+[Epoch 28] Training Loss: 0.0058                                                                                                                
+[Epoch 28] Metrics | Loss: 0.0058 | Per-digit acc: 0.9899 | Seq acc: 0.9575                                                                     
+2025-04-24 20:09:28,070 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch28_acc0.9899_loss0.0058.pth
+2025-04-24 20:09:28,083 - INFO - New best acc: 0.9899 — best_model.pth saved
+[Epoch 29] Training Loss: 0.0058                                                                                                                
+[Epoch 29] Metrics | Loss: 0.0058 | Per-digit acc: 0.9900 | Seq acc: 0.9550                                                                     
+2025-04-24 20:09:29,681 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch29_acc0.9900_loss0.0058.pth
+2025-04-24 20:09:29,693 - INFO - New best acc: 0.9900 — best_model.pth saved
+[Epoch 30] Training Loss: 0.0042                                                                                                                
+[Epoch 30] Metrics | Loss: 0.0042 | Per-digit acc: 0.9871 | Seq acc: 0.9400                                                                     
+2025-04-24 20:09:31,288 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch30_acc0.9871_loss0.0042.pth
+[Epoch 31] Training Loss: 0.0036                                                                                                                
+[Epoch 31] Metrics | Loss: 0.0036 | Per-digit acc: 0.9892 | Seq acc: 0.9560                                                                     
+2025-04-24 20:09:32,855 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch31_acc0.9892_loss0.0036.pth
+[Epoch 32] Training Loss: 0.0063                                                                                                                
+[Epoch 32] Metrics | Loss: 0.0063 | Per-digit acc: 0.9886 | Seq acc: 0.9465                                                                     
+2025-04-24 20:09:34,419 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch32_acc0.9886_loss0.0063.pth
+[Epoch 33] Training Loss: 0.0045                                                                                                                
+[Epoch 33] Metrics | Loss: 0.0045 | Per-digit acc: 0.9888 | Seq acc: 0.9490                                                                     
+2025-04-24 20:09:36,010 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch33_acc0.9888_loss0.0045.pth
+[Epoch 34] Training Loss: 0.0032                                                                                                                
+[Epoch 34] Metrics | Loss: 0.0032 | Per-digit acc: 0.9905 | Seq acc: 0.9610                                                                     
+2025-04-24 20:09:37,596 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch34_acc0.9905_loss0.0032.pth
+2025-04-24 20:09:37,608 - INFO - New best acc: 0.9905 — best_model.pth saved
+[Epoch 35] Training Loss: 0.0104                                                                                                                
+[Epoch 35] Metrics | Loss: 0.0104 | Per-digit acc: 0.9905 | Seq acc: 0.9540                                                                     
+2025-04-24 20:09:39,152 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch35_acc0.9905_loss0.0104.pth
+[Epoch 36] Training Loss: 0.0124                                                                                                                
+[Epoch 36] Metrics | Loss: 0.0124 | Per-digit acc: 0.9838 | Seq acc: 0.9310                                                                     
+2025-04-24 20:09:40,715 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch36_acc0.9838_loss0.0124.pth
+[Epoch 37] Training Loss: 0.0086                                                                                                                
+[Epoch 37] Metrics | Loss: 0.0086 | Per-digit acc: 0.9886 | Seq acc: 0.9495                                                                     
+2025-04-24 20:09:42,278 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch37_acc0.9886_loss0.0086.pth
+[Epoch 38] Training Loss: 0.0061                                                                                                                
+[Epoch 38] Metrics | Loss: 0.0061 | Per-digit acc: 0.9887 | Seq acc: 0.9515                                                                     
+2025-04-24 20:09:43,891 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch38_acc0.9887_loss0.0061.pth
+[Epoch 39] Training Loss: 0.0054                                                                                                                
+[Epoch 39] Metrics | Loss: 0.0054 | Per-digit acc: 0.9885 | Seq acc: 0.9495                                                                     
+2025-04-24 20:09:45,466 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch39_acc0.9885_loss0.0054.pth
+[Epoch 40] Training Loss: 0.0018                                                                                                                
+[Epoch 40] Metrics | Loss: 0.0018 | Per-digit acc: 0.9928 | Seq acc: 0.9670                                                                     
+2025-04-24 20:09:47,026 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch40_acc0.9928_loss0.0018.pth
+2025-04-24 20:09:47,038 - INFO - New best acc: 0.9928 — best_model.pth saved
+[Epoch 41] Training Loss: 0.0008                                                                                                                
+[Epoch 41] Metrics | Loss: 0.0008 | Per-digit acc: 0.9923 | Seq acc: 0.9660                                                                     
+2025-04-24 20:09:48,582 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch41_acc0.9923_loss0.0008.pth
+[Epoch 42] Training Loss: 0.0006                                                                                                                
+[Epoch 42] Metrics | Loss: 0.0006 | Per-digit acc: 0.9919 | Seq acc: 0.9660                                                                     
+2025-04-24 20:09:50,133 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch42_acc0.9919_loss0.0006.pth
+[Epoch 43] Training Loss: 0.0006                                                                                                                
+[Epoch 43] Metrics | Loss: 0.0006 | Per-digit acc: 0.9922 | Seq acc: 0.9685                                                                     
+2025-04-24 20:09:51,650 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch43_acc0.9922_loss0.0006.pth
+[Epoch 44] Training Loss: 0.0005                                                                                                                
+[Epoch 44] Metrics | Loss: 0.0005 | Per-digit acc: 0.9920 | Seq acc: 0.9665                                                                     
+2025-04-24 20:09:53,211 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch44_acc0.9920_loss0.0005.pth
+[Epoch 45] Training Loss: 0.0005                                                                                                                
+[Epoch 45] Metrics | Loss: 0.0005 | Per-digit acc: 0.9933 | Seq acc: 0.9685                                                                     
+2025-04-24 20:09:54,786 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch45_acc0.9933_loss0.0005.pth
+2025-04-24 20:09:54,798 - INFO - New best acc: 0.9933 — best_model.pth saved
+[Epoch 46] Training Loss: 0.0004                                                                                                                
+[Epoch 46] Metrics | Loss: 0.0004 | Per-digit acc: 0.9927 | Seq acc: 0.9685                                                                     
+2025-04-24 20:09:56,358 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch46_acc0.9927_loss0.0004.pth
+[Epoch 47] Training Loss: 0.0004                                                                                                                
+[Epoch 47] Metrics | Loss: 0.0004 | Per-digit acc: 0.9933 | Seq acc: 0.9690                                                                     
+2025-04-24 20:09:57,920 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch47_acc0.9933_loss0.0004.pth
+[Epoch 48] Training Loss: 0.0004                                                                                                                
+[Epoch 48] Metrics | Loss: 0.0004 | Per-digit acc: 0.9932 | Seq acc: 0.9695                                                                     
+2025-04-24 20:09:59,503 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch48_acc0.9932_loss0.0004.pth
+[Epoch 49] Training Loss: 0.0003                                                                                                                
+[Epoch 49] Metrics | Loss: 0.0003 | Per-digit acc: 0.9938 | Seq acc: 0.9695                                                                     
+2025-04-24 20:10:01,070 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch49_acc0.9938_loss0.0003.pth
+2025-04-24 20:10:01,082 - INFO - New best acc: 0.9938 — best_model.pth saved
+[Epoch 50] Training Loss: 0.0003                                                                                                                
+[Epoch 50] Metrics | Loss: 0.0003 | Per-digit acc: 0.9933 | Seq acc: 0.9690                                                                     
+2025-04-24 20:10:02,663 - INFO - Checkpoint saved to: /mnt/data/sanjay/captcha_dataset/crnn_ctc/crnn_epoch50_acc0.9933_loss0.0003.pth

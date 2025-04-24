@@ -1,0 +1,2 @@
+(yolov8) [opc@gpu-training-001 crnn_lstm]$ python /mnt/data/sanjay/captcha_dataset/crnn_lstm/inf2.py
+[PREDICT] image_validation_1.png → 001279
